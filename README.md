@@ -9,8 +9,8 @@
 
 <p>
   <!-- <img alt="Node.js CI" src="https://github.com/dk013/twilio-media-stream-capture/workflows/Node.js%20CI/badge.svg?branch=main"> -->
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%3E%3D1.0.0-blue.svg" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%3E%3D1.0.1-blue.svg" />
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg" />
   <a href="#" target="_blank">
     <img alt="License: UNLICENSED" src="https://img.shields.io/badge/License-UNLICENSED-yellow.svg" />
