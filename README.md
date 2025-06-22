@@ -199,10 +199,10 @@ For getting started on how Twilio media streams work, check out [Twilio](https:/
 
 ## Author
 
-👤 **Jremi <jremi@jzbg.dev>**
+👤 **Deep Chakraborty <chakraborty.deep013@gmail.com>**
 
-* Website: http://stackoverflow.com/users/1062503/jremi
-* Github: [@jremi](https://github.com/jremi)
+* Website: https://stackoverflow.com/users/3761007/d-k
+* Github: [@dk013](https://github.com/dk013)
 
 ***
-_Made with ❤️ in San Diego_
+_Made with ❤️ in Kolkata_
