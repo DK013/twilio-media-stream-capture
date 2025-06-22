@@ -44,15 +44,15 @@ describe('TwilioMediaStreamSaveAudioFile', function() {
     }
   });
 
-  // after(async () => {
-  //   try {
-  //     if (fs.existsSync(outputPath)) {
-  //       fs.unlinkSync(outputPath);
-  //     }
-  //   } catch (error) {
-  //     console.error('Error cleaning up after test:', error);
-  //   }
-  // });
+  after(async () => {
+    try {
+      if (fs.existsSync(outputPath)) {
+        fs.unlinkSync(outputPath);
+      }
+    } catch (error) {
+      console.error('Error cleaning up after test:', error);
+    }
+  });
 
   it('should save a twilio media stream to a local audio file in wav format', async function() {
     const testFile = path.join(__dirname, 'fixtures', 'hello-world.txt');

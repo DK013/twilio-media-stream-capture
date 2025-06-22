@@ -5,10 +5,10 @@
   <small>Save Twilio Media Streams as WAV files in Node.js</small>
 </h1>
 
-[![NPM](https://nodei.co/npm/twilio-media-stream-save-audio-file.png)](https://npmjs.org/package/twilio-media-stream-save-audio-file)
+[![NPM](https://nodei.co/npm/twilio-media-stream-capture.png)](https://npmjs.org/package/twilio-media-stream-capture)
 
 <p>
-  <img alt="Node.js CI" src="https://github.com/jremi/twilio-media-stream-save-audio-file/workflows/Node.js%20CI/badge.svg?branch=main">
+  <img alt="Node.js CI" src="https://github.com/dk013/twilio-media-stream-capture/workflows/Node.js%20CI/badge.svg?branch=main">
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.4-blue.svg?cacheSeconds=2592000" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%3E%3D4.0.0-blue.svg" />
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg" />
@@ -33,7 +33,7 @@ This library provides a simple way to save Twilio media streams to local WAV fil
 ## Installation
 
 ```bash
-npm install twilio-media-stream-save-audio-file
+npm install twilio-media-stream-capture
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ npm install twilio-media-stream-save-audio-file
 ### TypeScript / ES Modules
 
 ```typescript
-import TwilioMediaStreamSaveAudioFile from 'twilio-media-stream-save-audio-file';
+import TwilioMediaStreamSaveAudioFile from 'twilio-media-stream-capture';
 
 const mediaStreamSaver = new TwilioMediaStreamSaveAudioFile({
   saveLocation: __dirname,
@@ -78,7 +78,7 @@ wss.on('connection', (ws) => {
 ### JavaScript (CommonJS)
 
 ```javascript
-const TwilioMediaStreamSaveAudioFile = require('twilio-media-stream-save-audio-file');
+const TwilioMediaStreamSaveAudioFile = require('twilio-media-stream-capture');
 
 const mediaStreamSaver = new TwilioMediaStreamSaveAudioFile({
   saveLocation: __dirname,
